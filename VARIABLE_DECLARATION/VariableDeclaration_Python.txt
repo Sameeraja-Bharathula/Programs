@@ -1,0 +1,40 @@
+#Dynamic typing - Datatypes are determined by the value of a variable
+#integer type
+integer=20;
+print(integer);
+type(integer);
+
+#float type 
+float_num=3.7654
+print(float_num)
+type(float_num)
+
+#float type > 1.8 ⨉ 10^308 indicates as inf
+1.8e308
+
+#String type
+String1 ="Python Programming"
+String2='Course'
+String3='''sample'''
+print(String1+" "+String2+" "+String3)
+type(String1)
+
+#escape characters are represented by '\'
+String2="Python\'Program\'"
+print(String2)
+type(String2)
+
+#Complex type
+complex_num=2+3j
+print(complex_num)
+type(complex_num)
+
+#Boolean Type
+Boolean_value1=True
+print(Boolean_value1)
+type(Boolean_value1)
+
+Boolean_value2=False
+print(Boolean_value2)
+type(Boolean_value2)
+

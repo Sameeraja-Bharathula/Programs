@@ -1,0 +1,43 @@
+import java.util.Scanner;
+public class VariableDeclarations {
+public static void main(String [] args)
+ {
+	Scanner sc=new Scanner(System.in);
+	
+  //byte ranges from -128 to +127
+	byte byte_number=127;
+	System.out.println("Byte number: "+byte_number);
+	
+	
+  //short ranges from -32768 to 32767
+	short short_number=30000;
+	System.out.println("Short number: "+short_number);
+ 
+
+  //integer size : 32 bits 
+	int int_number=256;
+	System.out.println("Integer number: "+int_number);
+	
+  //long size : 64 bits
+	long long_number=400000;
+	System.out.println("Long number: "+long_number);
+
+
+
+  //float size: 32 bits
+	float float_number=4.07f;
+	System.out.println("Float number: "+float_number);
+	
+
+  //double size : 64 bits
+	double double_number=6.87;
+	System.out.println("Double number: "+double_number);
+
+  //boolean 
+	boolean value=true;
+	System.out.println("Boolean value: "+value);
+
+
+
+ }
+}

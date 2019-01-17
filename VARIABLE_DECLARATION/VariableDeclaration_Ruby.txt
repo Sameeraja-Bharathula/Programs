@@ -1,0 +1,49 @@
+#Dynamic typing and duck typing
+#Integer
+number1=20;
+puts number1;
+number1.class;
+#.class defines the type of value a variable is holding
+
+#Float
+number2=20.5;
+print number2;
+number2.class;
+
+#Float
+number3=20.876543215789098765;
+puts number3;
+number3.class;
+
+#string
+char1="Ruby Programming";
+printf "String is: %s\n",char1;
+char1.class;
+
+number4=4+3i;
+puts number4;
+number4.class;
+
+#Class variable
+@@number="RUBY";
+puts "This is class variable :#@@number";
+
+#Instance variable
+@numbers="NAMES";
+puts "This is instance variable :#@numbers";
+
+#Global variable
+$global="GLOBAL";
+puts "This is a global variable :#$global";
+
+#Local variable declaration method1 
+_value=545;
+puts _value;
+
+#Local Variable declaration method2 
+value=567938393;
+puts value;
+
+#Taking input from user
+input=4007;
+puts "Your input is :#{input}";

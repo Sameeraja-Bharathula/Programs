@@ -1,0 +1,29 @@
+<script>
+
+//Follows dynamic typing
+
+//Integer variable
+var number1=20;
+document.write("This is integer number: ",number1+"\n"); 
+typeof number1;
+
+//Boolean variable
+var number2=true;
+window.alert("This is Boolean variable: "+number2);
+typeof number2;
+
+//String 
+var string="Javascript Programming";
+document.write(string+"\n");
+typeof string;
+
+//Infinity values
+var value=4/0;
+document.write(value+"\n");//Positive infinity
+
+var value1=-4/0;
+document.write(value1);//Negative Infinity
+
+
+
+</script>
