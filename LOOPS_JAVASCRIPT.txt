@@ -1,0 +1,38 @@
+//for loop
+var num;
+for(num=1;num<=10;num++)
+{
+  console.log(num);
+}
+
+var Details={Name:"ABC",Age:25,Course:"Javascript"};
+var chocolates=["Munch","Kit Kat","Dairymilk","Milkybar"];
+
+//for in loop
+
+var num1;
+for(num1 in chocolates)
+{
+  console.log(chocolates[num1]);
+}
+
+for(num1 in Details)
+{
+  console.log(Details[num1]);
+}
+
+//while loop
+var num1=10;
+while(num1)
+{
+  console.log(num1);
+  num1-=2;
+}
+
+//do while loop
+var num1=10;
+do 
+{
+  console.log(num1);
+  num1-=2;
+}while(num1);
