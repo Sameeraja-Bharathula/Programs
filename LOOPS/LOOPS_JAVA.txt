@@ -1,0 +1,59 @@
+
+public class LoopStatements {
+	public static void main(String [] args)
+	{
+		int num=1;
+		int value;
+		
+		//While loop 
+		System.out.println("While loop starts here");
+
+		while(num<=5)
+		{
+			if(num==3)
+			{
+				break;
+			}
+			System.out.println("Value is : "+num);
+			num+=1;
+			
+		}
+		
+		
+		//do while
+		System.out.println("do while loop starts here");
+
+		num=1;
+		do
+		{
+			if(num==3)
+			{
+				continue;
+			}
+			System.out.println("Value is : "+num);
+			num+=1;
+			
+		}while(num<=5);
+		
+		
+		//for loop
+		System.out.println("for loop starts here");
+
+		for(value=1;value<=25;value=value*5)
+		{
+			System.out.println("Value is : "+value);
+
+		}
+		
+		//enhanced for loop
+		System.out.println("Enhanced for loop starts here");
+
+		 int [] numbers = {10, 20, 30, 40, 50};
+
+	      for(int num_1 : numbers )
+	      {
+	         System.out.print( num_1 );
+	         System.out.print(",");
+		  }
+}
+}
